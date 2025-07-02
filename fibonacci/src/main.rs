@@ -1,0 +1,41 @@
+use std::io;
+
+fn main() {
+    println!("Vamos descobrir o enésimo termo de Fibonacci!");
+    println!("Digite qual posição quer descobrir");
+
+    let mut n_input = String::new();
+
+    io::stdin()
+        .read_line(&mut n_input)
+        .expect("Failed to read");
+
+    let n: u32 = match n_input.trim().parse() {
+        Ok(num) => num,
+            Err(_) => {
+                println!("Not a number");
+                return;
+            }
+
+    };    
+
+
+        let num2 = 2;
+    for num1 in 3..n+1{
+        let num3 = num2 + num1;
+        println!("{num3}");      
+    }
+
+
+    
+
+
+}
+
+//fn fibonacci() {
+
+//}
+
+//fn n_conv() {
+
+//}
