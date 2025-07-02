@@ -1,8 +1,8 @@
 use std::io;
 
 fn main() {
-    println!("Vamos descobrir o enésimo termo de Fibonacci!");
-    println!("Digite qual posição quer descobrir");
+    println!("welcome to the fibonacci finder calculator 30000"); //portuguese for "let's find out the fibbonacciciasdbn nth number!!!!1111 or siomilar
+    println!("type the num u want top find"); //"type sum thing
 
     let mut n_input = String::new();
 
@@ -13,7 +13,7 @@ fn main() {
     let n: u32 = match n_input.trim().parse() {
         Ok(num) => num,
             Err(_) => {
-                println!("Not a number");
+                println!("Hey, we can't Fibonacci words yet!");
                 return;
             }
 
