@@ -1,7 +1,7 @@
 use std::io;
 
 fn main() {
-    println!("welcome to the fibonacci finder calculator 30000"); //portuguese for "let's find out the fibbonacciciasdbn nth number!!!!1111 or siomilar
+    println!("welcome to the fibonacci finder calculator 30000");
     println!("type the num u want top find"); //"type sum thing
 
     let mut n_input = String::new();
@@ -16,7 +16,6 @@ fn main() {
                 println!("Hey, we can't Fibonacci words yet!");
                 return;
             }
-
     };    
 
 
@@ -27,14 +26,9 @@ fn main() {
     }
 
 
-    
-
 
 }
 
-//fn fibonacci() {
-
-//}
 
 //fn n_conv() {
 
