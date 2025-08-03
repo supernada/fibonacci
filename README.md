@@ -10,3 +10,5 @@ if already have rust installed and cargo packs just do a cargo build on terminal
 it should work I suppose
 
 thanks for reading my readme
+
+PS: I had a better version but I lost it as I made in my work pc and I didn't save it. Awesome. 
